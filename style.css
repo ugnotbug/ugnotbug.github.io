@@ -7,3 +7,22 @@ html {
 body {
   font-family: 'Montserrat', sans-serif;
 }
+.container {
+	display: flex;
+	flex-direction: column;
+	background: url(header.jpg);
+	background-position: center;
+	width: 80%;
+	height: 100%;
+	justify-content: space-around;
+	align-items: center;
+	color: white;
+}
+h3 {
+	object-position: 50% -50px;
+}
+.btn-primary {
+	background-color: red;
+	border-color: red;
+	border-radius: 50px;
+}
